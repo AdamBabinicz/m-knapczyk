@@ -7,7 +7,7 @@ import Typed from "react-typed";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/videos/1.mp4" autoPlay loop />
+      {/* <video src="/videos/1.mp4" autoPlay loop /> */}
       <h1>Monika Knapczyk</h1>
       <Typed
         className="typed-text"
