@@ -2,8 +2,12 @@ import React from "react";
 import "./Footer.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
+import { animateScroll as scroll } from "react-scroll";
 
 function Footer() {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
   return (
     <div className="footer-container">
       <section className="footer-subscription">
@@ -173,7 +177,7 @@ function Footer() {
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
-            <Link to="/" className="navbar-logo">
+            <Link to="/" className="navbar-logo" onClick={toggleHome}>
               MK
               {/* <img src="images/pen.svg" alt="" /> */}
               <i class="fas fa-feather"></i>
