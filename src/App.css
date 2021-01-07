@@ -121,7 +121,8 @@
 @media screen and (max-width: 678px) {
   .productsH,
   .servicesH,
-  .poetryH {
+  .poetryH,
+  .sign-upH {
     margin-top: 3rem;
     font-size: 3rem;
     margin-bottom: 1rem;
