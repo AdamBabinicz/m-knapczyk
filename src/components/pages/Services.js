@@ -11,7 +11,7 @@ export default function Services() {
         <ul className="books">
           <li>„Wyspa Zagubionych Snów‟</li>
           <li>„Zimne słońca nie gasną‟</li>
-          <li>„Laary ze Szmaragdowego Wybrzeża‟</li>
+          <li>„Laara ze Szmaragdowego Wybrzeża‟</li>
           <li>„Imperium blasku‟</li>
           <li>„Deszcz gwiazd‟</li>
           <li>„Kiram utracony‟</li>

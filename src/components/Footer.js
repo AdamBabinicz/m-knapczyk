@@ -157,13 +157,13 @@ function Footer() {
           </div>
           <div class="footer-link-items">
             <h2>Social&nbsp;Media</h2>
-            <Link
+            {/* <Link
               to="//pl.linkedin.com/in/monika-knapczyk-418439152"
               target="_blank"
               rel="noopener noreferrer"
             >
               Linkedin
-            </Link>
+            </Link> */}
             <Link
               to="//www.facebook.com/monika.knapczyk.758"
               target="_blank"
@@ -218,7 +218,7 @@ function Footer() {
             >
               <i class="fab fa-twitter" />
             </Link> */}
-            <Link
+            {/* <Link
               class="social-icon-link linkedin"
               to="//pl.linkedin.com/in/monika-knapczyk-418439152"
               target="_blank"
@@ -226,7 +226,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <i class="fab fa-linkedin" />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>

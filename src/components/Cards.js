@@ -4,7 +4,7 @@ import "./Cards.css";
 import img1 from "../images/11.jpg";
 import img2 from "../images/5.jpg";
 import img3 from "../images/7.jpg";
-import img4 from "../images/10.jpg";
+import img4 from "../images/16.jpg";
 import img5 from "../images/6.jpg";
 
 function Cards() {
@@ -36,8 +36,7 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src={img4}
-              text="W dniu 25 października 2018 r. odbyło się 
-w Poniatowej k. Opola Lubelskiego w Miejsko-Gminnej Bibliotece Publicznej przy ul. Fabrycznej 1, kolejne spotkanie autorskie z udziałem Moniki Knapczyk, promujące obie wydane do tej pory książki."
+              text="W dniu 25 października 2018 r. odbyło się w Poniatowej k. Opola Lubelskiego w Miejsko-Gminnej Bibliotece Publicznej przy ul. Fabrycznej 1, kolejne spotkanie autorskie z udziałem Moniki Knapczyk, promujące obie wydane do tej pory książki."
               label="Spotkanie autorskie w Poniatowej"
               path="/"
             />

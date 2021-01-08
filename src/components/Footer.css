@@ -172,3 +172,8 @@
     grid-template-columns: 1fr;
   }
 }
+@media screen and (max-width: 480px) {
+  .footer-container {
+    padding: 1rem;
+  }
+}
