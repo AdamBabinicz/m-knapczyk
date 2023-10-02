@@ -177,7 +177,7 @@ function Footer() {
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
-            <Link to="/" className="navbar-logo" onClick={toggleHome}>
+            <Link className="navbar-logo" onClick={toggleHome}>
               MK
               {/* <img src="images/pen.svg" alt="" /> */}
               <i class="fas fa-feather"></i>
