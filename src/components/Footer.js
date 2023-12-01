@@ -183,7 +183,7 @@ function Footer() {
               <i class="fas fa-feather"></i>
             </Link>
           </div>
-          <small class="website-rights">{new Date().getFullYear()}.</small>
+          <small class="website-rights">2021 - {new Date().getFullYear()}.</small>
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
